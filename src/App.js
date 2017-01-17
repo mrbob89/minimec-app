@@ -5,13 +5,12 @@ import {
 } from 'semantic-ui-react';
 
 import TabBarContainer from "./features/tabs/TabBarContainer";
+import UnitInfo from "./features/unitInfo";
+import Pilots from "./features/pilots";
+import Mechs from "./features/mechs";
+import UnitOrganization from "./features/unitOrganization";
 
 import './App.css';
-
-const UnitInfo = () => <div>Unit Info content</div>;
-const Pilots = () => <div>Pilots content</div>;
-const Mechs = () => <div>Mechs content</div>;
-const UnitOrganization = () => <div>Unit Organization content</div>;
 
 class App extends Component {
     render() {
